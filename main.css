@@ -1,0 +1,214 @@
+.navbar {
+  background-color: hsl(28, 70%, 58%);
+}
+
+.navbar-brand>img{
+  width: 60px;
+}
+
+.navbar-brand {
+  height: 70px;
+}
+
+.nav >li >a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
+
+.nav.navbar-nav.navbar-right li a{
+    color: black;
+    letter-spacing: 3px;
+    line-height: 1.42857143 !important;
+    font-size: 12px;
+    z-index: 9999;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: hsl(28, 70%, 58%) !important;
+    background-color:  black !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: black !important;
+}
+
+.icon-bar {
+    background-color: black;
+}
+
+#member-img {
+  height: 50px%;
+  width: auto;
+  padding-bottom: 30px;
+}
+
+#team-holder {
+  background-color:;
+}
+
+.thumbnail {
+  border-radius: 100px;
+  border-color: black;
+  border-width: thin;
+}
+
+.intro-header {
+  padding-top: 400px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: #f8f8f8;
+  background: url(/img/wallpaper-carros.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.intro-message {
+  float: right;
+  position: relative;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: hsl(28, 70%, 58%);
+  text-align: right;
+  border-radius: 10px;
+
+}
+
+.intro-message>h1 {
+  font-size: 200%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: block;
+  border-radius: 4px;
+  padding-right: 10px;
+  width: 400px;
+  padding: 20px;
+}
+
+.intro-divider {
+  width: 400px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-color: black
+}
+/*Meet the team*/
+.heading-title {
+    margin-bottom: 30px;
+}
+
+.heading-title h3 {
+    margin-bottom: 0;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+.p-top-30 {
+    padding-top: 30px;
+}
+.half-txt {
+    width: 60%;
+    margin: 0 auto;
+    display: inline-block;
+    line-height: 25px;
+    color: #7e7e7e;
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.team-member, .team-member .team-img {
+    position: relative;
+}
+.team-member {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.team-member, .team-member .team-img {
+    position: relative;
+}
+
+.team-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    border: 15px solid rgba(0, 0, 0, 0.1);/*interior border when hover*/
+    background-color: rgba(0, 0, 0, 0.60);
+    opacity: 0;
+    -webkit-transition: all 2s;
+    transition: all 0.4s;
+}
+.team-member:hover .team-hover .desk {
+    top: 35%;
+    color: hsl(28, 70%, 58%);
+    letter-spacing: 2px;
+}
+
+.desk>h4 {
+    color: hsl(28, 70%, 58%) !important;
+    letter-spacing: 2px;
+}
+
+.team-member:hover .team-hover, .team-member:hover .team-hover .desk, .team-member:hover .team-hover .s-link {
+    opacity: 1;
+}
+.team-hover .desk {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    opacity: 0;
+    -webkit-transform: translateY(-55%);
+    -ms-transform: translateY(-55%);
+    transform: translateY(-55%);
+    -webkit-transition: all 0.3s 0.2s;
+    transition: all 0.3s 0.2s;
+    padding: 0 20px;
+}
+.desk, .desk h4, .team-hover .s-link a {
+    text-align: center;
+    color: #222;
+}
+.team-member:hover .team-hover .s-link {
+    bottom: 10%;
+}
+.team-member:hover .team-hover, .team-member:hover .team-hover .desk, .team-member:hover .team-hover .s-link {
+    opacity: 1;
+}
+.team-hover .s-link {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    opacity: 0;
+    text-align: center;
+    -webkit-transform: translateY(45%);
+    -ms-transform: translateY(45%);
+    transform: translateY(45%);
+    -webkit-transition: all 0.3s 0.2s;
+    transition: all 0.3s 0.2s;
+    font-size: 35px;
+}
+.desk, .desk h4, .team-hover .s-link a {
+    text-align: center;
+    color: #222;
+}
+.team-member .s-link a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 16px;
+}
+
+.body {
+  background-color: orange;
+}
+
+.img-thumbnail {
+  border: 4;
+  box-shadow:0;
+  border-radius:0;
+  border-color: hsl(28, 70%, 58%);
+  border-width: medium;
+}
