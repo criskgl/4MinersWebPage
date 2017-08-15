@@ -218,9 +218,10 @@
   border-width: medium;
 }
 
-#team-members {
+#crew {
   background-color: black;
   padding-bottom: 100px;
+  padding-top: 75px;
 }
 
 #social-icon {
@@ -231,6 +232,7 @@
 #about {
   background-color: black;
   padding-bottom: 100px;
+  padding-top: 75px;
 }
 
 #about>h4{
@@ -255,4 +257,76 @@
 
 .icon-holder {
   text-align: center;
+}
+
+/*EQUIPMENT*/
+#equipment {
+  background-color: black;
+  padding-bottom: 100px;
+  padding-top: 75px;
+}
+
+#equipment>h4{
+  color: hsl(28, 70%, 58%);
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: lighter;
+  font-size: 200%;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 50px;
+}
+
+/*STATISTICS*/
+#statistics {
+  background-color: black;
+  padding-bottom: 100px;
+  padding-top: 75px;
+}
+
+#statistics>h4{
+  color: hsl(28, 70%, 58%);
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: lighter;
+  font-size: 200%;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 50px;
+}
+
+/*INVEST*/
+#invest {
+  background-color: black;
+  padding-bottom: 100px;
+  padding-top: 75px;
+}
+
+#invest>h4{
+  color: hsl(28, 70%, 58%);
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: lighter;
+  font-size: 200%;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 50px;
+}
+
+/*INVEST*/
+#contact {
+  background-color: black;
+  padding-bottom: 100px;
+  padding-top: 75px;
+}
+
+#contact>h4{
+  color: hsl(28, 70%, 58%);
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: lighter;
+  font-size: 200%;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 50px;
 }

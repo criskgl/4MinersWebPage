@@ -11,8 +11,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body>
-<!--Start of navigation-->
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+  <!--Start of navigation-->
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
@@ -26,127 +26,207 @@
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#about">ABOUT</a></li>
-          <li><a href="#team">CREW</a></li>
-          <li><a href="#portfolio">EQUIPMENT</a></li>
+          <li><a href="#crew">CREW</a></li>
+          <li><a href="#equipment">EQUIPMENT</a></li>
+          <li><a href="#statistics">STATISTICS</a></li>
           <li><a href="#invest">INVEST</a></li>
           <li><a href="#contact">CONTACT</a></li>
         </ul>
       </div>
     </div>
   </nav>
-<!--End of navigation-->
+  <!--End of navigation-->
 
-<!--Landing image-->
-<header class="intro-header">
-      <div class="container">
-        <div class="intro-message">
-          <h1>In ETHER we trust</h1>
-          <hr class="intro-divider">
-        </div>
+  <!--Landing image-->
+  <header class="intro-header">
+    <div class="container">
+      <div class="intro-message">
+        <h1>In ETHER we trust</h1>
+        <hr class="intro-divider">
       </div>
-</header>
-<!--End of Landing image-->
+    </div>
+  </header>
+  <!--End of Landing image-->
 
-<!--Start of About-->
-
-<!--End of About-->
-<div class="container-fluid">
-  <div class="row" id="about">
-    <div class="heading-title text-center">
+  <!--Start of About-->
+  <div class="container-fluid">
+    <div class="row" id="about">
+      <div class="heading-title text-center">
         <h3 class="text-uppercase">About</h3>
         <hr class="title-divider">
+      </div>
+
+      <h4>We are cryptocurrency miniers and traders, ready to put you up and running into the growing Bitcoin and Ether markets</h4>
+      <div class="icon-holder">
+
+        <i class="fa fa-line-chart" id="about-icon"></i>
+        <i class="fa fa-bitcoin" id="about-icon"></i>
+
+      </div>
+
+
     </div>
-
-    <h4>We are cryptocurrency miniers and traders, ready to put you up and running into the growing Bitcoin and Ether markets</h4>
-    <div class="icon-holder">
-
-      <i class="fa fa-line-chart" id="about-icon"></i>
-      <i class="fa fa-bitcoin" id="about-icon"></i>
-
-    </div>
-
-
   </div>
-</div>
-<!--Start of crew-->
-<div class="container-fluid">
-                    <div class="row" id=team-members>
-                        <div class="heading-title text-center">
-                            <h3 class="text-uppercase">Crew</h3>
-                            <hr class="title-divider">
-                        </div>
-                        <div class="col-md-3 col-sm-4 col-xs-6">
-                            <div class="team-member">
-                                <div class="team-img">
-                                    <img class="img-thumbnail" src="img/cris.png" alt="team member" class="img-responsive">
-                                </div>
-                                <div class="team-hover">
-                                    <div class="desk">
-                                        <h4>Cristian Gómez</h4>
-                                        <p>Web Designer</p>
-                                    </div>
-                                    <div class="s-link">
-                                        <a href="https://twitter.com/_HackRis_"><i class="fa fa-twitter" id="social-icon"></i></a>
-                                        <a href="https://www.linkedin.com/in/cristian-kublai-g%C3%B3mez-l%C3%B3pez-4bb387104/"><i class="fa fa-linkedin" id="social-icon"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-4 col-xs-6">
-                            <div class="team-member">
-                                <div class="team-img">
-                                    <img class="img-thumbnail"src="img/guille.png" alt="team member" class="img-responsive">
-                                </div>
-                                <div class="team-hover">
-                                    <div class="desk">
-                                        <h4>Guillermo del Águila</h4>
-                                        <p>Trading Expert</p>
-                                    </div>
-                                    <div class="s-link">
-                                        <a href="https://www.linkedin.com/in/guillermo-del-%C3%A1guila-ferrandis-3a89b4129/"><i class="fa fa-linkedin" id="social-icon"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-4 col-xs-6">
-                            <div class="team-member">
-                                <div class="team-img">
-                                    <img class="img-thumbnail" src="img/pablo.png" alt="team member" class="img-responsive">
-                                </div>
-                                <div class="team-hover">
-                                    <div class="desk">
-                                        <h4>Pablo Escrivá</h4>
-                                        <p>CTO</p>
-                                    </div>
-                                    <div class="s-link">
-                                        <a href="https://twitter.com/escriva_pablo"><i class="fa fa-twitter" id="social-icon"></i></a>
-                                        <a href="https://www.linkedin.com/in/escrivapablo/"><i class="fa fa-linkedin" id="social-icon"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+  <!--End of About-->
 
-                        <div class="col-md-3 col-sm-4 col-xs-6">
-                            <div class="team-member">
-                                <div class="team-img">
-                                    <img class="img-thumbnail" src="img/santi.png" alt="team member" class="img-responsive">
-                                </div>
-                                <div class="team-hover">
-                                    <div class="desk">
-                                        <h4>Santiago Perez</h4>
-                                        <p>Crypto trading expert</p>
-                                    </div>
-                                    <div class="s-link">
-                                        <a href="https://twitter.com/perzmd"><i class="fa fa-twitter" id="social-icon"></i></a>
-                                        <a href="https://www.linkedin.com/in/santiago-p%C3%A9rez-medina-098605114/"><i class="fa fa-linkedin" id="social-icon"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+  <!--Start of crew-->
+  <div class="container-fluid">
+    <div class="row" id=crew>
+      <div class="heading-title text-center">
+        <h3 class="text-uppercase">Crew</h3>
+        <hr class="title-divider">
+      </div>
+      <div class="col-md-3 col-sm-4 col-xs-6">
+        <div class="team-member">
+          <div class="team-img">
+            <img class="img-thumbnail" src="img/cris.png" alt="team member" class="img-responsive">
+          </div>
+          <div class="team-hover">
+            <div class="desk">
+              <h4>Cristian Gómez</h4>
+              <p>Web Designer</p>
+            </div>
+            <div class="s-link">
+              <a href="https://twitter.com/_HackRis_"><i class="fa fa-twitter" id="social-icon"></i></a>
+              <a href="https://www.linkedin.com/in/cristian-kublai-g%C3%B3mez-l%C3%B3pez-4bb387104/"><i class="fa fa-linkedin" id="social-icon"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-4 col-xs-6">
+        <div class="team-member">
+          <div class="team-img">
+            <img class="img-thumbnail"src="img/guille.png" alt="team member" class="img-responsive">
+          </div>
+          <div class="team-hover">
+            <div class="desk">
+              <h4>Guillermo del Águila</h4>
+              <p>Trading Expert</p>
+            </div>
+            <div class="s-link">
+              <a href="https://www.linkedin.com/in/guillermo-del-%C3%A1guila-ferrandis-3a89b4129/"><i class="fa fa-linkedin" id="social-icon"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-4 col-xs-6">
+        <div class="team-member">
+          <div class="team-img">
+            <img class="img-thumbnail" src="img/pablo.png" alt="team member" class="img-responsive">
+          </div>
+          <div class="team-hover">
+            <div class="desk">
+              <h4>Pablo Escrivá</h4>
+              <p>CTO</p>
+            </div>
+            <div class="s-link">
+              <a href="https://twitter.com/escriva_pablo"><i class="fa fa-twitter" id="social-icon"></i></a>
+              <a href="https://www.linkedin.com/in/escrivapablo/"><i class="fa fa-linkedin" id="social-icon"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-4 col-xs-6">
+        <div class="team-member">
+          <div class="team-img">
+            <img class="img-thumbnail" src="img/santi.png" alt="team member" class="img-responsive">
+          </div>
+          <div class="team-hover">
+            <div class="desk">
+              <h4>Santiago Perez</h4>
+              <p>Crypto trading expert</p>
+            </div>
+            <div class="s-link">
+              <a href="https://twitter.com/perzmd"><i class="fa fa-twitter" id="social-icon"></i></a>
+              <a href="https://www.linkedin.com/in/santiago-p%C3%A9rez-medina-098605114/"><i class="fa fa-linkedin" id="social-icon"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row" id="equipment">
+      <div class="heading-title text-center">
+        <h3 class="text-uppercase">Equipment</h3>
+        <hr class="title-divider">
+      </div>
+
+      <h4>We are cryptocurrency miniers and traders, ready to put you up and running into the growing Bitcoin and Ether markets</h4>
+      <div class="icon-holder">
+
+        <i class="fa fa-line-chart" id="about-icon"></i>
+        <i class="fa fa-bitcoin" id="about-icon"></i>
+
+      </div>
+
+
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row" id="statistics">
+      <div class="heading-title text-center">
+        <h3 class="text-uppercase">Statistics</h3>
+        <hr class="title-divider">
+      </div>
+
+      <h4>We are cryptocurrency miniers and traders, ready to put you up and running into the growing Bitcoin and Ether markets</h4>
+      <div class="icon-holder">
+
+        <i class="fa fa-line-chart" id="about-icon"></i>
+        <i class="fa fa-bitcoin" id="about-icon"></i>
+
+      </div>
+
+
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row" id="invest">
+      <div class="heading-title text-center">
+        <h3 class="text-uppercase">Invest</h3>
+        <hr class="title-divider">
+      </div>
+
+      <h4>We are cryptocurrency miniers and traders, ready to put you up and running into the growing Bitcoin and Ether markets</h4>
+      <div class="icon-holder">
+
+        <i class="fa fa-line-chart" id="about-icon"></i>
+        <i class="fa fa-bitcoin" id="about-icon"></i>
+
+      </div>
+
+
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row" id="contact">
+      <div class="heading-title text-center">
+        <h3 class="text-uppercase">Contact</h3>
+        <hr class="title-divider">
+      </div>
+
+      <h4>We are cryptocurrency miniers and traders, ready to put you up and running into the growing Bitcoin and Ether markets</h4>
+      <div class="icon-holder">
+
+        <i class="fa fa-line-chart" id="about-icon"></i>
+        <i class="fa fa-bitcoin" id="about-icon"></i>
+
+      </div>
+
+
+    </div>
+  </div>
+
+
 </body>
-<!--End of crew-->
+
+
 
 
 
