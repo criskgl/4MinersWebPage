@@ -107,10 +107,11 @@
 
 }
 .title-divider {
-  width: 100%;
-  border-top: 1px solid #f8f8f8;
+  border-top: 9px solid #f8f8f8;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   border-color: orange;
+  width: 10px;
+  border-radius: 20px;
 }
 
 .p-top-30 {
