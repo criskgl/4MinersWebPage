@@ -103,7 +103,16 @@
     margin-bottom: 0;
     letter-spacing: 2px;
     font-weight: normal;
+    color: orange;
+
 }
+.title-divider {
+  width: 400px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-color: orange;
+}
+
 .p-top-30 {
     padding-top: 30px;
 }
@@ -201,9 +210,7 @@
     font-size: 16px;
 }
 
-.body {
-  background-color: orange;
-}
+
 
 .img-thumbnail {
   border: 4;
@@ -211,4 +218,12 @@
   border-radius:0;
   border-color: hsl(28, 70%, 58%);
   border-width: medium;
+}
+
+#team-members {
+  background-color: black;
+}
+
+#social-icon {
+  color: orange;
 }
