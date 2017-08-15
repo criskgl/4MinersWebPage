@@ -210,8 +210,6 @@
     font-size: 16px;
 }
 
-
-
 .img-thumbnail {
   border: 4;
   box-shadow:0;
@@ -222,8 +220,39 @@
 
 #team-members {
   background-color: black;
+  padding-bottom: 100px;
 }
 
 #social-icon {
   color: orange;
+}
+
+/*ABOUT*/
+#about {
+  background-color: black;
+  padding-bottom: 100px;
+}
+
+#about>h4{
+  color: hsl(28, 70%, 58%);
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: lighter;
+  font-size: 200%;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 50px;
+}
+
+#about-icon {
+  color: hsl(28, 70%, 58%);
+  font-size: 1000%;
+  font-weight: lighter;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+
+.icon-holder {
+  text-align: center;
 }
