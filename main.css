@@ -331,3 +331,11 @@
   padding-right: 20px;
   line-height: 50px;
 }
+
+#equipmentCarousel1>img{
+  background-size: cover;
+}
+
+#contact-data p {
+  color: hsl(28, 70%, 58%);
+}
