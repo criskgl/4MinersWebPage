@@ -339,3 +339,10 @@
 #contact-data p {
   color: hsl(28, 70%, 58%);
 }
+
+.bg-4 {
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+    padding-top: 7px;
+    letter-spacing: 3px;
+}
