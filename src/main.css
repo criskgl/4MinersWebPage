@@ -218,7 +218,7 @@
   border-color: hsl(28, 70%, 58%);
   border-width: medium;
 }
-
+/*ABOUT*/
 #crew {
   background-color: black;
   padding-bottom: 100px;
@@ -227,6 +227,14 @@
 
 #social-icon {
   color: orange;
+}
+
+#name-title-crew-mobile p{
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: orange;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 /*ABOUT*/
@@ -345,4 +353,9 @@
     color: #fff;
     padding-top: 7px;
     letter-spacing: 3px;
+}
+
+.c-wrapper {
+    width: 80%; /* for example */
+    margin: auto;
 }
