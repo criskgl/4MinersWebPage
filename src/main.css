@@ -344,10 +344,6 @@
   background-size: cover;
 }
 
-#contact-data p {
-  color: hsl(28, 70%, 58%);
-}
-
 .bg-4 {
     background-color: #2f2f2f; /* Black Gray */
     color: #fff;
@@ -356,8 +352,12 @@
 }
 #name-crew-mobile {
   font-size: 14;
+  color: hsl(28, 70%, 58%);
+  text-align: center;
 }
 
 #title-crew-mobile {
    font-size: 10;
+   color: hsl(28, 70%, 58%);
+   text-align: center;
 }
