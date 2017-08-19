@@ -327,6 +327,7 @@
   background-color: black;
   padding-bottom: 100px;
   padding-top: 75px;
+  color: hsl(28, 70%, 58%);
 }
 
 #contact>h4{
@@ -351,13 +352,16 @@
     letter-spacing: 3px;
 }
 #name-crew-mobile {
-  font-size: 14;
+  font-size: 14px;
   color: hsl(28, 70%, 58%);
   text-align: center;
+  letter-spacing: 3px;
+  margin-bottom: 0px;
 }
 
 #title-crew-mobile {
-   font-size: 10;
+   font-size: 10px ;
    color: hsl(28, 70%, 58%);
    text-align: center;
+   letter-spacing: 2px;
 }
