@@ -354,8 +354,10 @@
     padding-top: 7px;
     letter-spacing: 3px;
 }
+#name-crew-mobile {
+  font-size: 14;
+}
 
-.c-wrapper {
-    width: 80%; /* for example */
-    margin: auto;
+#title-crew-mobile {
+   font-size: 10;
 }
